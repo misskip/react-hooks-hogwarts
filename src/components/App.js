@@ -1,12 +1,15 @@
 import React from "react";
-import Nav from "./Nav";
+import "./App.css"
+import Table from "./Table";
 
 import hogs from "../porkers_data";
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
+    <div className="container">
+     
+      <Table />
+      
     </div>
   );
 }
